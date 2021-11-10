@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint.override;
+package com.tuychiev.example.override;
 
 /**
  * @author toir427

@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint;
+package com.tuychiev.example;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

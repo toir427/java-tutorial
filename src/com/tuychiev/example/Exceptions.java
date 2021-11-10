@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint;
+package com.tuychiev.example;
 
 /**
  * @author toir427

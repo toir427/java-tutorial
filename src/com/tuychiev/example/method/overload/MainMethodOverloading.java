@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint.method.overload;
+package com.tuychiev.example.method.overload;
 
 /**
  * @author Tuychiev Toir

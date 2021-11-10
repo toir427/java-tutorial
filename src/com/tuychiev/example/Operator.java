@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint;
+package com.tuychiev.example;
 
 /**
  * @author toir427
@@ -27,5 +27,17 @@ public class Operator {
         System.out.println("Comparison: " + String.valueOf(comparison)); // false
         boolean logical = addition > 3 && subtraction < 5;
         System.out.println("Logical: " + String.valueOf(logical)); // true
+
+        int a = 0;
+        System.out.println(a++); // post increment operator
+        System.out.println(a);
+        System.out.println(--a); // pre decrement operator
+
+        int x = 0;
+        int z = ++x; // increment x by 1. next line
+        System.out.println(x + " " + z);
+        x = 0;
+        z = x++; // increment x by 1. this line
+        System.out.println(x + " " + z);
     }
 }

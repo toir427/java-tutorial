@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint.method.override;
+package com.tuychiev.example.method.override;
 
 class Vehicle {
     void run() {

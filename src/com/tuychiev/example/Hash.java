@@ -1,7 +1,5 @@
-package com.tuychiev.javatpoint;
+package com.tuychiev.example;
 
-import java.awt.desktop.SystemSleepEvent;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.HashSet;
 

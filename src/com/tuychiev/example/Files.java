@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint;
+package com.tuychiev.example;
 
 import java.io.File;
 import java.io.FileNotFoundException;

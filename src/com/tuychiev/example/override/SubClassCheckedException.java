@@ -1,4 +1,4 @@
-package com.tuychiev.javatpoint.override;
+package com.tuychiev.example.override;
 
 import java.io.IOException;
 
@@ -7,13 +7,13 @@ import java.io.IOException;
  * @link http://tuychiev.com
  * @since 10/21/21
  */
-class SuperClass {
+class Parent {
     void message() throws IOException {
         System.out.println("parent method");
     }
 }
 
-class SubClass extends SuperClass {
+class Child extends Parent {
     /**
      * If the superclass method does not declare an exception,
      * subclass overridden method cannot declare the checked exception.
@@ -26,9 +26,9 @@ class SubClass extends SuperClass {
     }
 }
 
-public class SubClassUncheckedException {
+public class SubClassCheckedException {
     public static void main(String[] args) throws IOException {
-        SuperClass child = new SubClass();
-        child.message();
+        Parent parent = new Child();
+        parent.message();
     }
 }
